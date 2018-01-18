@@ -6,12 +6,18 @@ h1 {
   color: orange;
   clear: both;
   font-size: 50px;
+  text-align: center;
 }
 
 ul {
     padding: 0;
     list-style-type: none;
     overflow: hidden;
+}
+
+.header_links {
+  margin-left: 350px;
+  text-align: center;
 }
 
 a {
@@ -40,4 +46,20 @@ a {
   padding: 10px;
   background-color: darkcyan;
   margin-right: 10px;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.show {
+  text-align: center;
+  border: 5px solid black;
+  padding-bottom: 70px;
+}
+
+.show_links {
+  width: 50%;
+  margin: 40px 0 0 380px;
 }

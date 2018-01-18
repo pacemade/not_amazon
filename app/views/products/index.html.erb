@@ -1,12 +1,15 @@
-<h1>These are the Products</h1>
+<div class = "wrapper">
+
+  <h1>These are the Products</h1>
 
 
-<ul>
-  <% @products.each do |product| %>
-    <div class = "products">
-      <li><%= link_to product.name, product_path(product) %></li>
-      <li><%= product.description %></li>
-      <li><%= dollars(product.price) %></li>
-    </div>  
-  <% end %>
-</ul>
+  <ul>
+    <% @products.each do |product| %>
+      <div class = "products">
+        <li><%= link_to product.name, product_path(product) %></li>
+        <li><%= product.description %></li>
+        <li><%= dollars(product.price) %></li>
+      </div>
+    <% end %>
+  </ul>
+</div>
